@@ -12,7 +12,8 @@ import * as actions from '../actions';
 class ListItem extends Component {
 
     componentWillUpdate() {
-        UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
+        UIManager.setLayoutAnimationEnabledExperimental && 
+            UIManager.setLayoutAnimationEnabledExperimental(true);
         LayoutAnimation.linear();
     }
 
